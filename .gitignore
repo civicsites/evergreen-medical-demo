@@ -22,7 +22,13 @@
 
 # misc
 .DS_Store
+Thumbs.db
 *.pem
+
+# local editor / IDE (keep shared editor config if you add it later)
+.idea/
+.vscode/*
+!.vscode/extensions.json
 
 # debug
 npm-debug.log*
